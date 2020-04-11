@@ -12,6 +12,7 @@ const AppRoutes = () => (
         <Header />
         <Switch>
             <Route path="/" component={ExpenseDashBoardPage} exact={true} />
+            <Route path="/budget-app-react" component={ExpenseDashBoardPage} exact={true} />
             <Route path="/create" component={AddExpensePage} exact={true} />
             <Route path="/edit" component={EditPage} exact={true} />
             <Route path="/help" component={HelpPage} exact={true} />
